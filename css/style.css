@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 430px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.main-header h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 80px;
+    -webkit-text-stroke: 1.25px black;
+    margin-bottom: 30px;
+}
+
+.main-header button{
+    background-color: rgb(59, 95, 224);
+    color: orange;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .1s;
+}
+.main-header button:hover{
+    background-color: rgb(2, 14, 92);
+}
+
+.secciones{
+    padding: 7vh 20px;
+    text-align: center;
+    background-color: azure;
+}
+
+.Secciones h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: coral;
+    text-align: center;
+}
+
+.Secciones-texto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.Secciones-texto div{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.texto h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: darkblue;    
+}
+
+.texto p{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
